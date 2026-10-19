@@ -268,3 +268,18 @@ nav a:hover {
     font-style: italic;
     color: #666;
 }
+
+.error-message {
+    color: red;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: rgb(109, 240, 109);
+}
+
+.form-group input.input-error,
+.form-group textarea.input-error {
+    border: 1px solid red;
+}
